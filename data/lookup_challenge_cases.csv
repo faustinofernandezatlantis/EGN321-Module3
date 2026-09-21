@@ -1,0 +1,12 @@
+case_id,valve_family,temperature_c,intent
+C-01,VX-100,20.0,exact minimum
+C-02,VX-100,35.0,interpolate
+C-03,VX-100,100.0,exact maximum
+C-04,VX-100,5.0,below range refusal
+C-05,VX-100,110.0,above range refusal
+C-06,VX-200,65.0,interpolate
+C-07,VX-200,90.0,exact maximum
+C-08,VX-200,95.0,above range refusal
+C-09,VX-300,62.5,interpolate
+C-10,VX-300,125.0,exact maximum
+C-11,VX-999,50.0,unknown family refusal
